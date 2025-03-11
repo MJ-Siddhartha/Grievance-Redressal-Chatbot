@@ -1,0 +1,44 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+env/
+.venv/
+.python-version
+
+# Ignore Streamlit Secrets
+.streamlit/secrets.toml
+
+# Log files
+*.log
+*.out
+*.err
+complaint_processing.log
+
+# Cached dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Hugging Face Transformers Cache (Pre-trained Models)
+cache/
+transformers_cache/
+~/.cache/huggingface/
+
+# Ignore DS_Store (Mac)
+.DS_Store
+
+# Ignore VS Code settings
+.vscode/
+.idea/
+
+# Ignore unnecessary files
+*.swp
+*.swo
